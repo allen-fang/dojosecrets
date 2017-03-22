@@ -1,0 +1,118 @@
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+/*LOGIN AND REGISTRATION PAGE*/
+
+.wrapper {
+	width: 90%;
+	margin: 50px auto;
+}
+
+.error ul {
+	list-style-type: none;
+	color: red;
+}
+
+.index-content {
+	display: flex;
+	justify-content: space-around;
+}
+
+.index-form {
+	width: 25%;
+	border: 1px solid black;
+	padding: 10px 15px 15px;
+	line-height: 1.8
+}
+
+.index-form > form {
+	display: flex;
+	flex-direction: column;
+}
+
+.index-form > form input {
+	display: inline-block;
+	float: right;
+}
+
+
+/*SECRETS PAGE*/
+
+h1 {
+	margin-bottom: 10px;
+}
+
+.header > h1 {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.logout-button {
+	display:inline-block;
+}
+
+.logout-button input {
+	background:none!important;
+    border:none; 
+    padding:0!important;
+    text-decoration: underline;
+    color: blue;
+}
+
+.secret-post {
+	width: 30%;
+}
+
+form {
+	margin-bottom: 10px;
+}
+
+.secret-post{
+	display: inline-block;
+}
+
+textarea {
+	width: 100%;
+}
+
+.secrets-content {
+	margin-left: 15px;
+}
+
+.secrets-content span {
+	font-weight: bold;
+}
+
+.secrets-content p {
+	margin-bottom: 20px;
+}
+
+.secrets-content form {
+	display: inline-block;
+}
+
+.entry > * {
+	display:inline-block;
+}
+
+.entry input {
+	margin-left: 5px;
+	background:none!important;
+    border:none; 
+    padding:0!important;
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dojo Secrets - Popular</title>
+	{% load staticfiles %}
+	<link rel="stylesheet" type="text/css" href="{% static 'dojosecrets/css/style.css' %}">
+</head>
+<body>
+	<div class="wrapper">
+		<h1>Most Popular Secrets...</h1>
+		<form action="/secrets" class="logout-button">
+			<input type="submit" value="Back">
+		</form>
+		<div class="secrets-content">
+			{% for secret in secrets %}
+				<div class="entry">
+					<p>{{secret.content}}  ({{ secret.created_at }}) {{secret.likes.count}} liked this. </p>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</body>
+</html>
